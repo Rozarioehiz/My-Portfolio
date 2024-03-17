@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.General-Body{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.Left-General-Body{
+    width: 50%;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Name-Stack-Done{
+    width: 60%;
+    height: 40%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.Name{
+    width: 100%;
+    height: 40%;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Name >h1{
+   font-size: 50px;
+    font-family: Raleway;
+    font-weight: 500;
+    color: rgb(235, 231, 231);
+
+}
+
+.Stack{
+    width: 100%;
+    height: 13%;
+    background-color: yellow;
+    display: flex;
+ 
+}
+
+.Stack >h2{
+    font-size: 20px;
+    font-family:  Raleway;
+    font-weight: 200;
+    color: white;
+
+}
+
+
+.Done{
+    width: 100%;
+    height: 20%;
+}
+
+.About-Experience-Project{
+    width: 80%;
+    height: 30%;
+    background-color: pink;
+}
+
+.ContactUs{
+    width: 80%;
+    height: 15%;
+    background-color: aqua;
+}
+
+.Right-General-Body{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
